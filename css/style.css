@@ -1,0 +1,33 @@
+
+
+header{ /*cabeçalho da pagina */
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    background-color:#f8f8f8;
+
+}
+
+.logo-img{
+    width: 20vw;
+}
+
+.barra-destaque{
+    display: flex;
+    flex-direction: row;
+}
+
+.color1 {color: #d8c3ba;}
+.color2 {color: #bcbb8d;}
+.color3 {color: #0f020a;}
+.color4 {color: #807675;}
+.color5 {color: #f8f8f8;}
+
+
+.company-title{ /* Nome da empresa no cabeçalho */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
