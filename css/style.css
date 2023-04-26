@@ -1,4 +1,7 @@
-
+body{
+    margin-left: 2%;
+    background-color:#f8f8f8;
+}
 
 header{ /*cabeçalho da pagina */
     display: flex;
@@ -8,13 +11,32 @@ header{ /*cabeçalho da pagina */
 
 }
 
-.logo-img{
+p{
+    font-family: serif;
+    font-size: 3.5vh;
+}
+
+h3{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 6vh;
+
+}
+
+h4{
+    font-family: serif;
+}
+
+.logo-img{ /*Imagem do inicio do site LOGO PRINCIPAL*/
     width: 20vw;
 }
 
-.barra-destaque{
+.barra-destaque{ /* barra GERAL dos botoes  */
     display: flex;
     flex-direction: row;
+    background-color:#d8c3ba;
+    align-items: center;
+    border-radius: 0.5vw;
 }
 
 .color1 {color: #d8c3ba;}
@@ -27,6 +49,100 @@ header{ /*cabeçalho da pagina */
 .company-title{ /* Nome da empresa no cabeçalho */
     display: flex;
     flex-direction: column;
+}
+
+
+                                            /*BARRA DE BOTOES*/
+
+.titulos-barra{ /*div de cada botao*/
+    margin-left: 2%;
+}
+
+.botao-barra{ /*Botoes da barra principal*/
+    height: 7vh;
+    background-color: #d8c3ba;
+    border-color: #d8c3ba;
+    border:#d8c3ba;
+    border-radius: 0.5vw;
+}
+
+.botao-texto{
+    font-size: 4vh;
+}
+
+.img-principal{
+    margin-top: 1vh;
+    height: auto;
+    width: 96.75vw;
+}
+
+                                            /* NOSS0 ESCRIT0RIO */
+
+.section-description{/*Section geral da Descrição NOSSO ESCRITORIO*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 65vw;
+}
+
+.titulo{ 
+    margin-top: 8vh; 
+    flex-basis: 100%;
+    height: auto;
+}
+
+.tracinho-horizontal{
+    background-color: #d8c3ba;
+    height: 2vh;
+    width: 100vw;
+    border-radius: 1vh;
+
+}
+
+.texto-img{ /*Div que junta texto e imagem*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.texto-nosso{
+    margin-left: 2%;
+}
+
+.botao-no{
+    height: 7vh;
+    background-color: #d8c3ba;
+    border-color: #d8c3ba;
+    border:#d8c3ba;
+    border-radius: 0.5vw;
+    font-size: 4vh;
+    font-family: serif;
+}
+
+.img-description{ /*Imagem que acompanha a descriçao*/
+    max-width: 20vw;
+    width: auto;
+    height: auto;
+    border-radius: 4%;
+
+}
+
+                                            /* AREA DE ATUAÇAO */
+
+.section-atua{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65vw;
+}
+
+.icones-geral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-atua{
+    width: 14vw;
+    height: auto;
 }
 
 
