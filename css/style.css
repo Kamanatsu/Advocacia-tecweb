@@ -51,6 +51,11 @@ h4{
     flex-direction: column;
 }
 
+#div-geral{
+    display: flex;
+    flex-direction: row;
+}
+
 
                                             /*BARRA DE BOTOES*/
 
@@ -76,18 +81,24 @@ h4{
     width: 96.75vw;
 }
 
+                                            /* NOSS0 ESCRIT0RIO - AtUAÇÃO JUNÇÃO*/
+
+.somos-atuacao{
+    display: flex;
+    flex-direction: column;
+}
+
+
                                             /* NOSS0 ESCRIT0RIO */
 
 .section-description{/*Section geral da Descrição NOSSO ESCRITORIO*/
     display: flex;
     flex-wrap: wrap;
-    width: 65vw;
+    width: 70vw;
 }
 
 .titulo{ 
     margin-top: 8vh; 
-    flex-basis: 100%;
-    height: auto;
 }
 
 .tracinho-horizontal{
@@ -128,13 +139,20 @@ h4{
 
                                             /* AREA DE ATUAÇAO */
 
+
+.titulo-atua{
+    flex-basis: 100%;
+}    
+
+
 .section-atua{
     display: flex;
     flex-wrap: wrap;
-    width: 65vw;
+    width: 70vw;
 }
 
 .icones-geral{
+    margin-top: 2vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -146,4 +164,28 @@ h4{
 }
 
 
+                                            /* Social-Navigate JUNÇÃO*/
 
+
+.social-navigate{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+                                            /* Social*/
+
+.video{
+    height: 35vh;
+    width: auto;
+}
+
+.botao-social{
+    height: 5vh;
+    background-color: #d8c3ba;
+    border-color: #d8c3ba;
+    border:#d8c3ba;
+    border-radius: 0.5vw;
+    font-size: 3vh;
+    font-family: serif;
+}
