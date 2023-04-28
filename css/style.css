@@ -139,9 +139,23 @@ h4{
 
                                             /* AREA DE ATUAÇAO */
 
+.geral-atua{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .tracinho-vertical{ 
+    margin-top: 9vh;
+    background-color: #d8c3ba;
+    height: 100vh;
+    width: 2vh;
+    border-radius: 1vh;
+    margin-bottom: 65vh;
+    margin-right: 2vh;
+}*/
 
 .titulo-atua{
-    flex-basis: 100%;
+    flex-basis: 40%;
 }    
 
 
