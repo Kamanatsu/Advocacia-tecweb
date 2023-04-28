@@ -1,6 +1,7 @@
 body{
     margin-left: 2%;
     background-color:#f8f8f8;
+    margin-right: 2%;
 }
 
 header{ /*cabeçalho da pagina */
@@ -78,7 +79,7 @@ h4{
 .img-principal{
     margin-top: 1vh;
     height: auto;
-    width: 96.75vw;
+    width: 94.78vw;
 }
 
                                             /* NOSS0 ESCRIT0RIO - AtUAÇÃO JUNÇÃO*/
@@ -139,12 +140,24 @@ h4{
 
                                             /* AREA DE ATUAÇAO */
 
-.geral-atua{
+.img-atua{
+    width: 14vw;
+    height: auto;
+} 
+
+.icones-geral{
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
 }
 
-/* .tracinho-vertical{ 
+.icone-atua{
+    display: flex;
+    flex-direction: column;
+}
+
+.tracinho-vertical{ 
     margin-top: 9vh;
     background-color: #d8c3ba;
     height: 100vh;
@@ -152,30 +165,14 @@ h4{
     border-radius: 1vh;
     margin-bottom: 65vh;
     margin-right: 2vh;
-}*/
-
-.titulo-atua{
-    flex-basis: 40%;
-}    
-
-
-.section-atua{
-    display: flex;
-    flex-wrap: wrap;
-    width: 70vw;
 }
 
-.icones-geral{
-    margin-top: 2vh;
+.geral-atua{
     display: flex;
     flex-direction: row;
-    align-items: center;
+
 }
 
-.img-atua{
-    width: 14vw;
-    height: auto;
-}
 
 
                                             /* Social-Navigate JUNÇÃO*/
@@ -203,3 +200,45 @@ h4{
     font-size: 3vh;
     font-family: serif;
 }
+
+
+                                            /* Artigos*/
+
+.imagem-desc{
+    min-height: 30vh;
+    max-height: 30vh;
+    min-width: 30vw;
+    max-width: 30vw;
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+}
+
+.artigo{
+    display: flex;
+    flex-direction: column;
+    background-color: #d4c7c1d2;
+    border-radius: 1vh;
+    min-width: 30vw;
+    max-width: 30vw;
+}
+
+.artigos-geral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.titulo-artigo{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+.texto-artigo{
+    margin-top: 2vh;
+    word-break: normal;
+}
+
+
+
