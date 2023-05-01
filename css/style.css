@@ -30,6 +30,11 @@ h4{
 
 .logo-img{ /*Imagem do inicio do site LOGO PRINCIPAL*/
     width: 20vw;
+    transition: 500ms;
+}
+
+.logo-img:hover{
+    transform: scale(1.1);
 }
 
 .barra-destaque{ /* barra GERAL dos botoes  */
@@ -50,6 +55,7 @@ h4{
 .company-title{ /* Nome da empresa no cabeçalho */
     display: flex;
     flex-direction: column;
+    margin-left: 1vw;
 }
 
 #div-geral{
@@ -75,7 +81,7 @@ h4{
     border-color: #d8c3ba;
     border:#d8c3ba;
     border-radius: 0.5vw;
-    transition: 90ms;
+    transition: 300ms;
 }
 
 .botao-barra:hover{
@@ -155,10 +161,17 @@ h4{
                                             /* AREA DE ATUAÇAO */
 
 .img-atua{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 3vh;
     width: 14vw;
     height: auto;
+    transition: 2s;
 } 
 
+.img-atua:hover{
+    transform: scale(1.1);
+}
 .icones-geral{
     display: flex;
     flex-direction: row;
@@ -274,15 +287,81 @@ h4{
 
 .titulo-form{
     margin-top: 9vh;
+    margin-left: 2vh;
+    padding-top: 2vh;
 }
 
 .bloco-form{
     display: flex;
     flex-direction: row;
+    margin-top: 2vh;
+    padding: 2vh;
+    background-color: #d3d3d350;
+    height: 45vh;
+    border-radius: 2vh;
+}
+
+.atend{
+    margin-top: 8vh;
+    font-size: 4vh;
+    color: #443f3d;
+    font-weight: bold;
+    margin-left: 2vh;
+}
+
+.desc-form{
+    width: 35vw;
+    margin-top: 2vh;
+    font-size: 3vh;
+    color: rgb(153, 111, 117);
 }
 
 
 
 .form-texto{
     width: 50vw;
+    margin-left: 4vh;
+}
+
+.form{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 5vh;
+}
+
+.nome-tel{
+    display: flex;
+    flex-direction: row;
+}
+
+.nome-texto, .tel-texto,.email-texto{
+    height: 5vh;
+    border-radius: 2vh;
+    margin-top: 3vh;
+}
+
+.nome-texto{
+    width: 25vw;
+}
+
+.tel-texto{
+    width: 13vw;
+    margin-left: 1vw;
+}
+
+.email-texto{
+    margin-top: 1vh;
+    width: 39.55vw;
+}
+
+.texto-texto{
+    width: 39.55vw;
+    margin-top: 2vh;
+    height: 20vh;
+    border-radius: 2vh;
+}
+
+.texto-texto::placeholder{
+    position: fixed;
+    top: 1vh;
 }
