@@ -354,6 +354,11 @@ hr{
 
 
                         /*Avaliações*/
+
+.user h4{
+    font-size: 2vw;
+    font-family: serif;
+}
 .avaliacoes{
     margin-top: 8vh ;
     margin-bottom: 8vh;
@@ -407,6 +412,7 @@ hr{
     padding-top: 4vh;
     text-align: justify;
     font-size: 2vmax;
+    font-family: serif;
 }
 
 .estrelas{
@@ -422,7 +428,11 @@ hr{
 
                     /*NOVIDADES*/
 
-
+.titulo-materia{
+    font-size: 3vh;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
 .materia-pai{  
     display:flex;
     justify-content: center;
@@ -505,6 +515,7 @@ hr{
     margin-bottom: 1vh;
 }
 .sobre{
+    margin-top: 7vh;
     margin-bottom:4vh;
 }
 .editorial h3{
@@ -513,7 +524,14 @@ hr{
 
                 /*Section Perfil-Missão-Parceiros*/
 
+/*H3 MODIFICADO*/
+.titulos-secundarios{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 5vh;
+}
 .titulo-perfil{
+    font-size: 3vw;
     margin-top: 4vh;
     margin-bottom: 4vh;
     text-align: center;
@@ -593,7 +611,7 @@ hr{
     min-width: 30vw;
     max-width: 30vw;
     border-radius:4vh;
-    margin-top: 2.7vh;
+    margin-top: 4.7vh;
 }
 
                 /*Footer*/
@@ -621,4 +639,120 @@ footer{
 
 .whatsapp-icon:hover,.google-maps-icon:hover, .judge-icon:hover, .instagram-icon:hover,.email-icon:hover{
     color:#0f020a;
+}
+
+@media(min-width: 320px) and (max-width:767px){
+
+    .icones-geral{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .barra-destaque{
+        display:none;
+    }
+    .social-navigate{
+        display:none;
+    }
+    .imagem-desc{
+        min-height: 40vh;
+        max-height: 40vh;
+        min-width: 60vw;
+        max-width: 60vw;
+    }
+    
+    .artigo{
+       
+        display: flex;
+        flex-direction: column;
+        min-width: 60vw;
+        max-width: 60vw;
+       justify-content: center;
+        
+    }
+    
+    .artigos-geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bloco-form{
+        display: flex;
+        flex-direction:column;
+        height: 90vh;
+    }
+
+    .desc-form{
+        width:90%
+    }
+    
+    .form-texto{
+        width: 100%;
+    }
+
+    .nome-texto{
+        width: 50vw;
+    }
+    
+    .tel-texto{
+        width: 25vw;
+        
+    }
+    
+    .email-texto{
+        
+        width: 78vw;
+    }
+    
+    .texto-texto{
+        width: 78vw;
+       
+    }
+
+
+    .quadro-avaliacoes{
+        flex-direction:column;
+    }
+    .materia-pai{
+        width: 100%;
+    }
+    
+    /*NOVIDADES*/
+
+    .keys{
+        height: 3vh;
+        font-size: 3vw;
+        
+    }
+    .novidades-sobre-editorial{
+        flex-direction:column;
+    }
+
+    .pai-section{
+        flex-direction: column;
+    }
+    .missao-ousadia-metodo, .parceiros,.perfil-texto{
+        width: 100%;
+    }
+
+    .parceiro-filho h3{
+        margin-left: 4vh;
+        margin-top: 4vh;
+    }
+    .img-parceiro{
+        min-height: 50vh;
+        max-height: 50vh;
+        min-width: 90vw;
+        max-width: 90vw;
+    }
+
+    .icones{
+        margin-left: 2vh;
+        width: 33.3%;
+    }
+    .whatsapp-icon,.google-maps-icon,.email-icon,.judge-icon,.instagram-icon {
+        font-size: 2.5vh;
+        
+    }
+
 }
