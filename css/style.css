@@ -644,9 +644,10 @@ footer{
 @media(min-width: 320px) and (max-width:767px){
 
     body{
-        padding: 0 1.5vw;
+        padding: 0 ;
         position: relative;
         margin-top: 2vh;
+        overflow-x: hidden;
     }
     section{
         width: 100vw;
@@ -671,7 +672,7 @@ footer{
     /*imagem principal*/
     .imagem-principal{
         margin-top: 0.5vh;
-        height: 110vh;
+        height: 90vh;
         width: 100vw;
     }
     
@@ -701,8 +702,10 @@ footer{
         max-width: 20vw;
     }
     /*Artigos e notícias*/
+   
     .artigos-uni{
         justify-content: center;
+        align-items: center;
     }
     .artigos-uni {
         flex-direction: column;
@@ -726,8 +729,8 @@ footer{
         display: flex;
         flex-direction:column;
         height: 130vh;
-        justify-content: center;
-        padding:0.5vh;
+        align-items:  center;
+      
      
     }
 
@@ -738,6 +741,7 @@ footer{
     .desc-form{
         width: auto;
     }
+ 
     .form-informacoes{
         display:flex;
         flex-direction:column;
@@ -754,7 +758,7 @@ footer{
     }
     .tel-texto{
         width: 50vw;
-        
+        margin-left: 0;
     }
     
     .email-texto{
@@ -774,15 +778,17 @@ footer{
     .content-avaliacao{
         justify-content: center;
     }
-    .materia-pai{
-        width: 90vw;
-    }
+ 
     .user{
         margin-top: 2vmax;
     }
     .user h4{
         
         font-size:3vmax;
+    }
+
+    .p-avaliacao{
+        font-size: 3vmax;
     }
     /*NOVIDADES*/
 
@@ -793,15 +799,18 @@ footer{
     }
     .novidades-sobre-editorial{
         flex-direction:column;
-        width:90vw;
-        justify-content: center;
+      
+        align-items: center;
         margin-right: 0;
         padding-right: 0;
     }
 
+    .sobre-editorial{
+        margin-left: 0;
+    }
     .pai-section{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     .missao-ousadia-metodo, .parceiros,.perfil-texto{
         width: 90%;
@@ -814,15 +823,16 @@ footer{
     .parceiros{
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     .img-parceiro{
         min-height: 50vh;
         max-height: 50vh;
         min-width: 70vw;
         max-width: 70vw;
+        margin-bottom: 1vh;
     }
-
+   
     .icones{
         margin-left: 2vh;
         width: 33.3%;
