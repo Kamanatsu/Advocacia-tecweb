@@ -643,80 +643,147 @@ footer{
 
 @media(min-width: 320px) and (max-width:767px){
 
-    .icones-geral{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    body{
+        padding: 0 1.5vw;
+        position: relative;
+        margin-top: 2vh;
     }
+    section{
+        width: 100vw;
 
+    }
+    .logo-img{
+        width: 20vh;
+    }
+    /*header*/
+    header{
+        top:0;
+        z-index: 0;
+        position: static;
+        width: 100vw;
+       
+    }
+    .barra{
+        width: 100vw;
+        justify-content: space-around;
+        margin-right: 0;
+    }
+    /*imagem principal*/
+    .imagem-principal{
+        margin-top: 0.5vh;
+        height: 110vh;
+        width: 100vw;
+    }
+    
+    .botao-texto {
+        font-size: 3vw;
+      
+    }
     .barra-destaque{
         display:none;
     }
     .social-navigate{
         display:none;
     }
-    .imagem-desc{
-        min-height: 40vh;
-        max-height: 40vh;
-        min-width: 60vw;
-        max-width: 60vw;
+    /*Social-navigate*/
+    .juncao-social-navigate {
+        display:none;
     }
-    
-    .artigo{
-       
-        display: flex;
-        flex-direction: column;
-        min-width: 60vw;
-        max-width: 60vw;
-       justify-content: center;
-        
+    /*Atuacao*/
+    .conjunto-imagem-atuacao {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    
-    .artigos-geral{
-        display: flex;
-        flex-direction: column;
+    .conjunto-imagem-atuacao img{
+        min-height: 10vh;
+        max-height: 10vh;
+        min-width: 20vw;
+        max-width: 20vw;
+    }
+    /*Artigos e notícias*/
+    .artigos-uni{
         justify-content: center;
     }
+    .artigos-uni {
+        flex-direction: column;
+    }
+
+    .artigos-bloco {
+        min-height: 50vh;
+        max-height: 50vh;
+        min-width: 70vw;
+        max-width: 70vw;
+    }
+
+    .imagem-artigo {
+        min-height: 25vh;
+        max-height: 25vh;
+        min-width: 70vw;
+        max-width: 70vw;
+    }
+    /*Formulario*/
     .bloco-form{
         display: flex;
         flex-direction:column;
-        height: 90vh;
+        height: 130vh;
+        justify-content: center;
+        padding:0.5vh;
+     
     }
 
+ 
+    .atend{
+        margin-top: 2vh;
+    }
     .desc-form{
-        width:90%
+        width: auto;
     }
-    
-    .form-texto{
-        width: 100%;
+    .form-informacoes{
+        display:flex;
+        flex-direction:column;
+       
     }
 
+    .nome-tel{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
     .nome-texto{
         width: 50vw;
     }
-    
     .tel-texto{
-        width: 25vw;
+        width: 50vw;
         
     }
     
     .email-texto{
-        
-        width: 78vw;
+        width: 50vw;
     }
     
     .texto-texto{
-        width: 78vw;
-       
+        width: 50vw;
     }
 
 
     .quadro-avaliacoes{
         flex-direction:column;
+        justify-content: center;
+    }
+
+    .content-avaliacao{
+        justify-content: center;
     }
     .materia-pai{
-        width: 100%;
+        width: 90vw;
     }
-    
+    .user{
+        margin-top: 2vmax;
+    }
+    .user h4{
+        
+        font-size:3vmax;
+    }
     /*NOVIDADES*/
 
     .keys{
@@ -726,24 +793,34 @@ footer{
     }
     .novidades-sobre-editorial{
         flex-direction:column;
+        width:90vw;
+        justify-content: center;
+        margin-right: 0;
+        padding-right: 0;
     }
 
     .pai-section{
         flex-direction: column;
+        justify-content: center;
     }
     .missao-ousadia-metodo, .parceiros,.perfil-texto{
-        width: 100%;
+        width: 90%;
     }
 
     .parceiro-filho h3{
         margin-left: 4vh;
         margin-top: 4vh;
     }
+    .parceiros{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .img-parceiro{
         min-height: 50vh;
         max-height: 50vh;
-        min-width: 90vw;
-        max-width: 90vw;
+        min-width: 70vw;
+        max-width: 70vw;
     }
 
     .icones{
