@@ -194,6 +194,28 @@ hr{
     margin-left: 1.4vh;
 }
 
+.a-nav{
+    font-size: 3vw;
+    text-decoration: none;
+    color: #0f020a;
+}
+
+li{
+    height: 3vh;
+    background-color: #d8c3ba;
+    border-color: #d8c3ba;
+    border: #d8c3ba;
+    border-radius: 0.5vw;
+    font-size: 3vh;
+    text-align: center;
+    font-family: serif;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    height: 4vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+}
+
 /* ARTIGOS */
 .artigos-uni{
     display: flex;
@@ -250,6 +272,10 @@ hr{
 /*FORMULARIO*/
 .form-geral{
     margin-top: 10vh;
+}
+
+input{
+    border: solid 1px rgb(179, 159, 151);
 }
 
 .bloco-form{
@@ -843,3 +869,239 @@ footer{
     }
 
 }
+
+
+@media(min-width: 769px) and (max-width:1269px){ /*RESPONSIVIDADE TABLET*/
+    body{
+        padding: 0 ;
+        position: relative;
+        margin-top: 2vh;
+        overflow-x: hidden;
+    }
+    section{
+        width: 100vw;
+
+    }
+    .logo-img{
+        width: 20vh;
+    }
+    /*header*/
+    header{
+        top:0;
+        z-index: 0;
+        position: static;
+        width: 100vw;
+       
+    }
+    .barra{
+        width: 100vw;
+        justify-content: space-around;
+        margin-right: 0;
+    }
+    /*imagem principal*/
+    .imagem-principal{
+        margin-top: 0.5vh;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .imagem-principal-texto{
+        height: 100vh;
+        width: auto;
+        background-color: rgb(0, 0, 0, 0.7);
+        border-radius: 0.5vw;
+    }
+    
+    .botao-texto {
+        font-size: 3vw;
+      
+    }
+    .barra-destaque{
+        display:none;
+    }
+    .social-navigate{
+        display:none;
+    }
+
+    /* NOSSO ESCRITORIO */
+    .imagem-nosso{
+        max-width: 0vw;
+ 
+    }
+    
+    .texto-nosso{
+        margin-left: 2vh;
+    }
+
+    /*Social-navigate*/
+    .juncao-social-navigate {
+        display:none;
+    }
+    /*Atuacao*/
+    .conjunto-imagem-atuacao {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 2vw;
+    }
+
+    
+    .icone-texto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .conjunto-imagem-atuacao img{
+        min-height: 5vh;
+        max-height: 5vh;
+        min-width: 10vw;
+        max-width: 10vw;
+        margin-right: 2vw;
+    }
+    /*Artigos e notícias*/
+   
+    .artigos-uni{
+        justify-content: center;
+        align-items: center;
+    }
+    .artigos-uni {
+        flex-direction: column;
+    }
+
+    .artigos-bloco {
+        margin-bottom: 2vh;
+        min-height: 50vh;
+        max-height: 50vh;
+        min-width: 70vw;
+        max-width: 70vw;
+    }
+
+    .imagem-artigo {
+        min-height: 25vh;
+        max-height: 25vh;
+        min-width: 70vw;
+        max-width: 70vw;
+    }
+    /*Formulario*/
+    .bloco-form{
+        display: flex;
+        flex-direction:column;
+        height: 130vh;
+        align-items:  center;
+      
+     
+    }
+
+ 
+    .atend{
+        margin-top: 2vh;
+    }
+    .desc-form{
+        width: auto;
+    }
+ 
+    .form-informacoes{
+        display:flex;
+        flex-direction:column;
+       
+    }
+
+    .nome-tel{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nome-texto{
+        width: 50vw;
+    }
+    .tel-texto{
+        width: 50vw;
+        margin-left: 0;
+    }
+    
+    .email-texto{
+        width: 50vw;
+    }
+    
+    .texto-texto{
+        width: 50vw;
+    }
+
+
+    .quadro-avaliacoes{
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .content-avaliacao{
+        justify-content: center;
+    }
+ 
+    .user{
+        margin-top: 2vmax;
+    }
+    .user h4{
+        
+        font-size:3vmax;
+    }
+
+    .p-avaliacao{
+        font-size: 3vmax;
+    }
+    /*NOVIDADES*/
+
+    .keys{
+        height: 3vh;
+        font-size: 3vw;
+        
+    }
+    .novidades-sobre-editorial{
+        flex-direction:column;
+      
+        align-items: center;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .sobre-editorial{
+        margin-left: 0;
+    }
+    .pai-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .missao-ousadia-metodo, .parceiros,.perfil-texto{
+        width: 90%;
+    }
+
+    .parceiro-filho h3{
+        margin-left: 4vh;
+        margin-top: 4vh;
+    }
+    .parceiros{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-parceiro{
+        min-height: 50vh;
+        max-height: 50vh;
+        min-width: 70vw;
+        max-width: 70vw;
+        margin-bottom: 1vh;
+    }
+   
+    .icones{
+        margin-left: 2vh;
+        width: 33.3%;
+    }
+    .whatsapp-icon,.google-maps-icon,.email-icon,.judge-icon,.instagram-icon {
+        font-size: 2.5vh;
+        
+    }
+}
+
+
+
